@@ -1,0 +1,62 @@
+.junipervideo {
+    background-position: fixed;
+    display: inline-block;
+    margin: 180px 0px;
+}
+
+.description {
+    width: 500px;
+    margin: 100px 100px;
+}
+
+main {
+    background-color: white;
+}
+
+.juniperstory {
+    float: left;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.juniperstoryscene {
+    float: left;
+    display: inline-block;
+}
+
+strong {
+    font-size: 30px;
+}
+
+.juniperstorycontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.author-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    text-align: center;
+}
+
+.authorimg {
+    width: 850px;
+    height: 760px;
+    padding: 150px 150px;
+}
+
+.authordescription {
+    float: left;
+    background-color: white;
+    margin: 160px 0px;
+    text-align: center;
+}
