@@ -6,7 +6,7 @@
 
 .description {
     width: 500px;
-    margin: 100px 100px;
+    margin: 100px 50px;
 }
 
 main {
@@ -57,6 +57,6 @@ strong {
 .authordescription {
     float: left;
     background-color: white;
-    margin: 160px 0px;
+    margin: 100px 0px;
     text-align: center;
 }
