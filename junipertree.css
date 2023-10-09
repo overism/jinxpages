@@ -6,7 +6,7 @@
 
 .description {
     width: 500px;
-    margin: 100px 100px;
+    margin: 0px 100px;
 }
 
 main {
@@ -20,7 +20,7 @@ main {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 100px;
+    margin: 50px 50px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ strong {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    margin: 100px 100px;
+    margin: 50px 50px;
     text-align: center;
 }
 
