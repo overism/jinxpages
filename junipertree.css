@@ -49,13 +49,13 @@ strong {
 }
 
 .authorimg {
-    width: 850px;
-    height: 760px;
+    width: 600px;
+    height: 480px;
 }
 
 .authordescription {
     float: left;
     background-color: white;
-    margin: 160px 0px;
+    margin: 0px 0px;
     text-align: center;
 }
