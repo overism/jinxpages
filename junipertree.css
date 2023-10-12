@@ -36,7 +36,7 @@ strong {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    margin: 60px 60px;
+    margin: 80px 60px;
     text-align: center;
 }
 
@@ -56,6 +56,6 @@ strong {
 .authordescription {
     float: left;
     background-color: white;
-    margin: 0px 0px;
+    margin: 0px 30px;
     text-align: center;
 }
