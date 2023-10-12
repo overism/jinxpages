@@ -56,10 +56,10 @@ strong {
 .authordescription {
     float: left;
     background-color: white;
-    margin: 10px 30px;
+    margin: 0px;
     text-align: center;
 }
 
 .adescription {
-    margin: 10px 10px 0px 10px;
+    margin: 10px 0px;
 }
