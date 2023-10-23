@@ -1,9 +1,8 @@
 header{
     display: grid;
-    grid-template-columns: 1.2fr 2fr 3fr 3fr 3fr 1fr 1fr;
-    white-space: collapse;
-    height: 100%;
-    width: 100%;
+    grid-template-columns: 0fr 5fr 5fr 5fr 3.2fr 0.6fr;
+    column-gap: 0px;
+    white-space: trim;
     position: fixed;
     background-position: center;
     top: 0px;
@@ -23,7 +22,8 @@ header{
 
 .MenuItemDiv{
     font-family: Sometype Mono, Arial, serif;
-    font-weight: 500; 
+    font-weight: 500;
+    font-size: 21px;
     padding: 36px 40px;
     transition: padding 1s, background-color 1s, border-radius 1s, color 1s;
     background-color: black;
