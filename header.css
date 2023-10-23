@@ -22,6 +22,8 @@ header{
 }
 
 .MenuItemDiv{
+    font-family: Sometype Mono, Arial, serif;
+    font-weight: 500; 
     padding: 36px 40px;
     transition: padding 1s, background-color 1s, border-radius 1s, color 1s;
     background-color: black;
