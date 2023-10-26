@@ -1,5 +1,5 @@
 body { 
-    padding-top: 100px;
+    padding-top: 80px;
     margin: 0;
 }
 
@@ -12,6 +12,13 @@ h1 {
 
 h2 {
     color: aliceblue;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3, h4 {
+    color: black;
     text-align: center;
     vertical-align: middle;
     font-family: 'Trebuchet MS', sans-serif;

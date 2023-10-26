@@ -1,0 +1,17 @@
+
+
+.YatharthJainInfo, .AaravSharmaInfo {
+    width: 550px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 50px 100px;
+}
+
+.YatharthJainInfo p, .AaravSharmaInfo p {
+    margin: 30px;
+}
+
+p a {
+    text-decoration: underline;
+    color: blue;
+}
