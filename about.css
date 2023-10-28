@@ -1,5 +1,3 @@
-
-
 .YatharthJainInfo, .AaravSharmaInfo {
     width: 550px;
     text-align: center;
@@ -14,4 +12,17 @@
 p a {
     text-decoration: underline;
     color: blue;
+}
+
+.authorinfo {
+    margin: 100px 100px;
+}
+
+.linkto {
+    color: white;
+    transtion: color 1s;
+}
+
+.linkto:hover {
+    color: rgb(67, 149, 255);
 }

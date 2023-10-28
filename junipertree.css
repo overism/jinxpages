@@ -1,11 +1,12 @@
 .junipervideo {
     background-position: fixed;
     display: inline-block;
-    margin: 180px 0px;
+    margin: 150px 0px;
 }
 
 .description {
-    margin: 0px;
+    width: 600px;
+    margin: 60px 20px 60px 100px;
 }
 
 main {
@@ -19,7 +20,6 @@ main {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 80px;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ strong {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    margin: 80px 60px;
+    margin: 150px 100px 0px 100px;
     text-align: center;
 }
 
@@ -45,21 +45,17 @@ strong {
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     text-align: center;
-    margin: 80px 80px;
 }
 
 .authorimg {
-    width: 600px;
-    height: 480px;
+    width: 850px;
+    height: 760px;
+    margin: 50px 50px 100px 150px;
 }
 
 .authordescription {
     float: left;
     background-color: white;
-    margin: 0px;
+    margin: 130px 0px;
     text-align: center;
-}
-
-.adescription {
-    margin: 10px 0px;
 }

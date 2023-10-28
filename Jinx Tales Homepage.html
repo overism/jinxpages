@@ -9,7 +9,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sometype+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
         </head>
-        <body>
+        <body id="body">
             <div id="MasterDiv" style="width: auto; height: auto; background-color: aliceblue;">
                 <header id="HeaderDiv" class="block" style="width: 100%; background-color: black; max-height: 100px;">
                     <a href="Jinx Tales Homepage.html"><div id="LogoDiv" style="height: 100px; width: 160px; padding-left: 30px; float: left;"><img src="https://thumbs2.imgbox.com/77/3c/QIcdZrcu_t.jpg"></div></a>
@@ -19,9 +19,11 @@
                     <a href="Jinx Tales About.html"><div id="MenuItemDiv" class="MenuItemDiv" style="float: left;"><center>About</center></font></div></a>
                 </header>
                     <center><div id="BannerDiv" class="parallax" style="width: 100%; height: 1000 px; background-color: aliceblue;">
-                        <h1><font face="franklin gothic">Fairytales</font></h1>
+                        <h1><font face="Pristina Regular">Myths must be Unveiled</font></h1>
+                        <center><div class="arrowdiv"><a href="#scrollpoint"><img src="arrow.png" alt="arrow" class="arrow"></a></div></center>
                     </div></center>
-                <center><main id="ContentDiv" class="content-container" style="width: 100%; height: 800px; background-color: aliceblue;">
+                    <div id="scrollpoint" style="margin-top: -100px; margin-bottom: 170px;"></div>
+                <center><main id="ContentDiv" class="content-container" style="width: 80%; height: 800px; background-color: aliceblue;">
                     <img src="https://m.media-amazon.com/images/I/61ixtNcXc4L._AC_UF894,1000_QL80_.jpg" alt="Grimm Brothers" align="left" height="800px">
                     <br>
                     <div class="para-container"><p class="description" align="left"><font face="Roboto" size="4" color="black">
@@ -52,14 +54,15 @@
                     <br>
                     <div class="scrollup">
                         <h2>
-                            <a class="BacktoTop" href="Jinx Tales Homepage.html">Back to Top
+                            <a class="BacktoTop" href="#body">
+                                Back To Top
                                 <div class="tooltip">Scroll to the Top of the Page</div>
                             </a>
                         </h2>
                     </div>
                     <h2>Email: jinx@tales.com.au</h2>
                     <h2>Phone: +61 455 898 224</h2>
-                    <h2>For more info: <u>Link to About</u> </h2>
+                    <h2>For more info: <a class="linkto" href="Jinx Tales About.html"><u>Link to About</u></a> </h2>
                 </footer></center>
             </div>
         </body>

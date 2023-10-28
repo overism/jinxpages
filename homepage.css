@@ -1,6 +1,5 @@
 .parallax{
     background-image: url("https://wallpaperaccess.com/full/554961.jpg");
-    max-width: auto;
     min-height: 800px;
     width: 100%;
     height: 100%;
@@ -10,7 +9,7 @@
     background-size: cover;
     vertical-align: middle;
     text-align: left;
-    text-shadow: 7px 7px rgba(60, 60, 60, 0.5);
+    text-shadow: 5px 5px rgba(60, 60, 60, 0.5);
     padding: 50px 0px;
 }
 
@@ -18,6 +17,36 @@
     width: 700px;
     height: 750px;
     text-align: center;
-    padding-left: 650px;
+    padding-left: 800px;
     margin: 40px 0px;
+}
+
+.arrow {
+    width: 10%;
+    filter: invert(1);
+    transition: width 1s, filter 1s;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    width: 12%;
+    filter: invert(0.9);
+}
+
+.arrowdiv {
+    margin-top: -540px;
+    margin-bottom: 300px;
+}
+
+.content-container {
+    margin: 100px 100px 70px 100px;
+}
+
+.linkto {
+    color: white;
+    transtion: color 1s;
+}
+
+.linkto:hover {
+    color: rgb(67, 149, 255);
 }
