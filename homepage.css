@@ -17,19 +17,22 @@
     width: 700px;
     height: 750px;
     text-align: center;
-    padding-left: 800px;
-    margin: 40px 0px;
+    padding-left: 620px;
+    margin: 70px 0px;
+    line-height: 50px;
+    font-size: 35px;
 }
 
 .arrow {
-    width: 10%;
+    width: 8%;
     filter: invert(1);
     transition: width 1s, filter 1s;
     cursor: pointer;
+    filter: hue-rotate(1);
 }
 
 .arrow:hover {
-    width: 12%;
+    width: 10%;
     filter: invert(0.9);
 }
 
@@ -49,4 +52,8 @@
 
 .linkto:hover {
     color: rgb(67, 149, 255);
+}
+
+.bannertext {
+    margin-top: 0px;
 }

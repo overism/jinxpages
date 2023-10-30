@@ -1,6 +1,7 @@
 body { 
     padding-top: 80px;
     margin: 0;
+    background-color: white;
 }
 
 h1 {
@@ -39,4 +40,12 @@ a {
 
 html {
     scroll-behavior: smooth;
+}
+
+h5 {
+    color: rgb(209, 23, 23);
+    text-align: center;
+    font-size: 40px;
+    font-family: Roboto, Arial;
+    margin: 0;
 }
