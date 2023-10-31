@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Jinx Tales: About Page</title>
+            <title>Jinx Tales: Contact Page</title>
             <link rel="stylesheet" href="contact.css">
             <link rel="stylesheet" href="general.css">
             <link rel="stylesheet" href="header.css">
@@ -30,13 +30,35 @@
                             <p><b>Author:</b> Aarav</p>
                         </div>
                         <div class="inputs">
-                            <p><b>Name</b></p>
-                            <input class="name" type="text" placeholder="Full Name">
-                            <p><b>Email</b></p>
-                            <input class="email" type="text" placeholder="Email">
-                            <p><b>Description</b></p>
-                            <input class="details" type="text" placeholder="Message...">
-                            <button class="submit">Submit</button>
+                            <form action="Jinx Tales Contact.html" method="get">
+                                <label><b>Name</b></label>
+                                <input class="name" type="text" placeholder="Full Name" onclick="value=''">
+                                <label><b>Email</b></label>
+                                <input class="email" type="text" placeholder="Email" onclick="value=''">
+                                <label><b>Description</b></label>
+                                <textarea class="details" type="text" placeholder="Message..." rows="5" cols="40" spellcheck="false" onclick="value=''"></textarea>
+                            </form>
+                            <div class="popupcontainer">
+                                <button type="submitbtn" class="submit" onclick="openPopup()">Submit</button>
+                                <div class="popup" id="popup">
+                                    <img src="404-tick.png" alt="tick">
+                                    <h2>Thank You!</h2>
+                                    <p>Your reponse has been recorded. Thanks!</p>
+                                    <button type="button" onclick="closePopup()">OK</button>
+                                </div>
+                            </div>
+                            <script>
+                                let popup = document.getElementById("popup");
+                                function openPopup() {
+                                    popup.classList.add("openpopup")
+                                }
+                                function closePopup() {
+                                    popup.classList.remove("openpopup")
+                                }
+                            </script>
+                        </div>
+                        <div class="bib">
+                            <a href="https://docs.google.com/document/d/1AOpQYaWoaGEZLssc4u4FQbGE59gofDYZxooYBaFxcso/edit?usp=sharing">Our Sources</a>
                         </div>
                     </div>
                 </main>

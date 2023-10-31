@@ -18,7 +18,7 @@
 }
 
 .parallax{
-    background-image: url("https://images.squarespace-cdn.com/content/v1/553e8c95e4b0770c4ca696b2/1632753232249-G6W1PA5DZM89B4JJMO5B/AToS_MultiPlatformBackgrounds_Final2.jpg");
+    background-image: url("landingbackground1-transformed.jpg");
     max-width: auto;
     min-height: 1000px;
     width: 100%;
@@ -50,42 +50,14 @@
     padding: 40px 40px;
     background-color: white;
     border-radius: 50px;
+    transition: font-size 0.6s, margin 0.6s;
 }
 
-.juniperc {
-    width: 0px;
-    transition: width 1s, margin 1s;
-    float: left;
-    margin: 0px 0px;
-}
-
-.junipert:hover .juniperc {
-    width: 900px;
-    margin: 50px 48px;
-}
-
-.rumpelc {
-    width: 0px;
-    transition: width 1s, margin 1s;
-    float: left;
-    margin: 0px 0px;
-}
-
-.rumpelt:hover .rumpelc {
-    width: 700px;
-    margin: 50px 140px;
-}
-
-.snowwhitec {
-    width: 0px;
-    transition: width 1s, margin 1s;
-    float: left;
-    margin: 0px 0px;
-}
-
-.snowwhitet:hover .snowwhitec {
-    width: 900px;
-    margin: 50px 48px;
+.junipert:hover,
+.rumpelt:hover,
+.snowwhitet:hover {
+    font-size: 30px;
+    margin: 90px 90px;
 }
 
 body { 
